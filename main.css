@@ -1,0 +1,85 @@
+body {
+  background: #ff416c;
+
+  overflow: hidden;
+}
+.arrow {
+  width: 100%;
+}
+.left {
+  float: left;
+  display: none;
+}
+.right {
+  display: none;
+}
+.row {
+  overflow: hidden;
+  z-index: -1;
+  margin-left: 8%;
+  position: absolute;
+  margin-top: 20%;
+}
+.fas {
+  color: rgba(255, 255, 255, 0.699);
+  font-size: 60px;
+}
+
+.fas:hover {
+  color: rgb(255, 255, 255);
+}
+.question {
+  top: 20px;
+  margin-left: 25%;
+  position: absolute;
+  color: white;
+}
+.options {
+  padding: 20px 50px;
+  border-radius: 20px;
+  background: rgba(51, 51, 51, 0.397);
+  width: 60%;
+  font-weight: 300;
+  color: white;
+  margin-top: 10%;
+  position: absolute;
+  margin-left: 21%;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+h3:hover {
+  cursor: pointer;
+  color: rgb(161, 252, 199);
+}
+.changeback {
+  color: rgb(66, 245, 66);
+}
+.back {
+  color: white;
+}
+h4 {
+  font-weight: 100;
+}
+.btns {
+  position: absolute;
+
+  margin-left: 45%;
+  top: 70%;
+}
+.mybtn {
+  border: none;
+  color: white;
+  padding: 15px 35px;
+  color: #333;
+  background: rgba(255, 255, 255, 0.37); /* fallback for old browsers */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.mybtn:hover {
+  cursor: pointer;
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.25), 0 15px 19px rgba(0, 0, 0, 0.22);
+}
